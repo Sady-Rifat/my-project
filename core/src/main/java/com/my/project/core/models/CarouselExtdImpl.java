@@ -78,4 +78,9 @@ public class CarouselExtdImpl implements CarouselExtd {
     public boolean isControlsPrepended() {
         return coreCarousel.isControlsPrepended();
     }
+
+    @Override
+    public String getId() {
+        return coreCarousel.getId();
+    }
 }
