@@ -119,6 +119,11 @@
             <artifactId>my-project.core</artifactId>
             <version>${project.version}</version>
         </dependency>
+        <dependency>
+            <groupId>com.my.project</groupId>
+            <artifactId>my-project.common.core</artifactId>
+            <version>${project.version}</version>
+        </dependency>
 
         <dependency>
             <groupId>com.my.project</groupId>

@@ -67,6 +67,11 @@
                         </embedded>
                         <embedded>
                             <groupId>com.my.project</groupId>
+                            <artifactId>my-project.common.core</artifactId>
+                            <target>/apps/my-project-packages/application/install</target>
+                        </embedded>
+                        <embedded>
+                            <groupId>com.my.project</groupId>
                             <artifactId>my-project.ui.content</artifactId>
                             <type>zip</type>
                             <target>/apps/my-project-packages/content/install</target>
