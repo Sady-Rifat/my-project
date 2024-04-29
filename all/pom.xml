@@ -99,6 +99,11 @@
                             <type>zip</type>
                             <target>/apps/my-project-vendor-packages/application/install</target>
                         </embedded>
+                        <embedded>
+                            <groupId>com.aem.demo</groupId>
+                            <artifactId>aem-demo.all</artifactId>
+                            <target>/apps/my-project-vendor-packages/application/install</target>
+                        </embedded>
                     </embeddeds>
                 </configuration>
             </plugin>

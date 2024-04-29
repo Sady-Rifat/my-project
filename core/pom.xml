@@ -168,6 +168,10 @@ Import-Package: javax.annotation;version=0.0.0,*
             <groupId>com.itextpdf</groupId>
             <artifactId>itextpdf</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.aem.demo</groupId>
+            <artifactId>aem-demo.core</artifactId>
+        </dependency>
 
 
         <!-- Testing -->

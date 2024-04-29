@@ -33,11 +33,11 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
  * Simple JUnit test verifying the HelloWorldModel
  */
 @ExtendWith(AemContextExtension.class)
-class HelloWorldModelTest {
+class HelloWorldTest {
 
     private final AemContext context = AppAemContext.newAemContext();
 
-    private HelloWorldModel hello;
+    private HelloWorld hello;
 
     private Page page;
     private Resource resource;
@@ -51,7 +51,7 @@ class HelloWorldModelTest {
             "sling:resourceType", "my-project/components/helloworld");
 
         // create sling model
-        hello = resource.adaptTo(HelloWorldModel.class);
+        hello = resource.adaptTo(HelloWorld.class);
     }
 
     @Test
